@@ -1,0 +1,89 @@
+title: Brandon Himpfen Pages
+author:
+  name: Brandon Himpfen
+  email: brandonhimpfen@gmail.com
+
+description: >
+  Pages by Brandon Himpfen
+
+permalink: pretty
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  posts:
+    output: true
+    permalink: /:slug/
+  travel:
+    output: true
+    permalink: /:slug/
+  photography:
+    output: true
+    permalink: /:slug/ 
+  projects:
+    output: true
+    permalink: /:slug/ 
+  technology:
+    output: true
+    permalink: /:slug/ 
+  digital:
+    output: true
+    permalink: /:slug/  
+  miscellaneous:
+    output: true
+    permalink: /:slug/       
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "base"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "travel"
+    values:
+      layout: "page"    
+  -
+    scope:
+      path: ""
+      type: "photography"
+    values:
+      layout: "page" 
+  -
+    scope:
+      path: ""
+      type: "technology"
+    values:
+      layout: "page"         
+  -
+    scope:
+      path: ""
+      type: "digital"
+    values:
+      layout: "page"   
+      
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
