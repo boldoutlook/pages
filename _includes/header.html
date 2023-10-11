@@ -6,95 +6,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle{% if page.url == '/digital/' %} active{% endif %}" href="{{ "/digital/" | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Digital
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item{% if page.url == '/blogging/' %} active{% endif %}" href="{{ "/blogging/" | relative_url }}">Blogging</a></li>
-            <li><a class="dropdown-item{% if page.url == '/design/' %} active{% endif %}" href="{{ "/design/" | relative_url }}">Digital Design</a></li>
-            <li><a class="dropdown-item{% if page.url == '/digital-marketing/' %} active{% endif %}" href="{{ "/digital-marketing/" | relative_url }}">Digital Marketing</a></li>
-            <li><a class="dropdown-item{% if page.url == '/programming/' %} active{% endif %}" href="{{ "/programming/" | relative_url }}">Programming</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item{% if page.url == '/digital-glossaries/' %} active{% endif %}" href="{{ "/digital-glossaries/" | relative_url }}">Digital Glossaries</a></li>
-            <li><a class="dropdown-item{% if page.url == '/digital-resources/' %} active{% endif %}" href="{{ "/digital-resources/" | relative_url }}">Digital Resources</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle{% if page.url == '/tech/' %} active{% endif %}" href="{{ "/tech/" | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Tech
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item{% if page.url == '/cryptocurrency/' %} active{% endif %}" href="{{ "/cryptocurrency/" | relative_url }}">Cryptocurrency</a></li>
-            <li><a class="dropdown-item{% if page.url == '/security/' %} active{% endif %}" href="{{ "/security/" | relative_url }}">Cybersecurity</a></li>
-            <li><a class="dropdown-item{% if page.url == '/mobile/' %} active{% endif %}" href="{{ "/mobile/" | relative_url }}">Mobile Development</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item{% if page.url == '/tech-glossaries/' %} active{% endif %}" href="{{ "/tech-glossaries/" | relative_url }}">Tech Glossaries</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle{% if page.url == '/travel/' %} active{% endif %}" href="{{ "/travel/" | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Travel
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item{% if page.url == '/travel-blogging/' %} active{% endif %}" href="{{ "/travel-blogging/" | relative_url }}">Travel Blogging</a></li>
-            <li><a class="dropdown-item{% if page.url == '/travel-hacking/' %} active{% endif %}" href="{{ "/travel-hacking/" | relative_url }}">Travel Hacking</a></li>
-            <li><a class="dropdown-item{% if page.url == '/travel-writing/' %} active{% endif %}" href="{{ "/travel-writing/" | relative_url }}">Travel Writing</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item{% if page.url == '/travel-resources/' %} active{% endif %}" href="{{ "/travel-resources/" | relative_url }}">Travel Resources</a></li>
-            <li><a class="dropdown-item{% if page.url == '/travel-checklists/' %} active{% endif %}" href="{{ "/travel-checklists/" | relative_url }}">Travel Checklists</a></li>
-            <li><a class="dropdown-item{% if page.url == '/travel-glossary/' %} active{% endif %}" href="{{ "/travel-glossary/" | relative_url }}">Travel Glossary</a></li>
-            <li><a class="dropdown-item{% if page.url == '/travel-hacking-glossary/' %} active{% endif %}" href="{{ "/travel-hacking-glossary/" | relative_url }}">Travel Hacking Glossary</a></li>
-            <li><a class="dropdown-item{% if page.url == '/hospitality-tourism-glossary/' %} active{% endif %}" href="{{ "/hospitality-tourism-glossary/" | relative_url }}">Hospitality and Tourism Glossary</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle{% if page.url == '/photography/' %} active{% endif %}" href="{{ "/photography/" | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Photo
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item{% if page.url == '/photography-resources/' %} active{% endif %}" href="{{ "/photography-resources/" | relative_url }}">Photography Resources</a></li>
-            <li><a class="dropdown-item{% if page.url == '/photography-glossary/' %} active{% endif %}" href="{{ "/photography-glossary/" | relative_url }}">Photography Glossary</a></li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link{% if page.url == '/' %} active{% endif %}" aria-current="page" href="{{ "/" | relative_url }}">Pages</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link{% if page.url == '/business/' %} active{% endif %}" aria-current="page" href="{{ "/business/" | relative_url }}">Business</a>
+          <a class="nav-link{% if page.url == '/digital/' %} active{% endif %}" aria-current="page" href="{{ "/digital/" | relative_url }}">Digital</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link{% if page.url == '/gaming/' %} active{% endif %}" aria-current="page" href="{{ "/gaming/" | relative_url }}">Gaming</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle{% if page.url == '/journey/' %} active{% endif %}" href="{{ "/journey/" | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Life & Career
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item{% if page.url == '/life-hacking/' %} active{% endif %}" href="{{ "/life-hacking/" | relative_url }}">Life Hacking</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle{% if page.url == '/projects/' %} active{% endif %}" href="{{ "/projects/" | relative_url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Projects
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item{% if page.url == '/cdn/' %} active{% endif %}" href="{{ "/cdn/" | relative_url }}">CDN</a></li>
-            <li><a class="dropdown-item{% if page.url == '/data/' %} active{% endif %}" href="{{ "/data/" | relative_url }}">Free Datasets</a></li>
-            <li><a class="dropdown-item{% if page.url == '/code/' %} active{% endif %}" href="{{ "/code/" | relative_url }}">Open Source Code</a></li>
-            <li><a class="dropdown-item{% if page.url == '/paes/' %} active{% endif %}" href="{{ "/pages/" | relative_url }}">Pages</a></li>
-            <li><a class="dropdown-item{% if page.url == '/sites/' %} active{% endif %}" href="{{ "/sites/" | relative_url }}">Sites</a></li>
-            <li><a class="dropdown-item{% if page.url == '/themes/' %} active{% endif %}" href="{{ "/themes/" | relative_url }}">Website and Blog Themes</a></li>
-            <li><a class="dropdown-item{% if page.url == '/websites/' %} active{% endif %}" href="{{ "/websites/" | relative_url }}">Websites</a></li>
-          </ul>
-        </li>       
-        <li class="nav-item">
-          <a class="nav-link{% if page.url == '/learn/' %} active{% endif %}" aria-current="page" href="{{ "/learn/" | relative_url }}">Learn</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="https://tools.himpfen.com/">Tools</a>
+          <a class="nav-link{% if page.url == '/travel/' %} active{% endif %}" aria-current="page" href="{{ "/travel/" | relative_url }}">Travel</a>
         </li>
       </ul>
-      <span class="navbar-text d-flex">
-        <a href="https://blog.himpfen.com/" title="Blog" class="btn navbar-btn ml-3">Blog</a>
-      </span>
     </div>
   </div>
 </nav>
