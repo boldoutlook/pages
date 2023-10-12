@@ -7,7 +7,7 @@ image: https://images.unsplash.com/photo-1630932598914-3ebd4ef95d55?crop=entropy
 
 The advent of remote work has revolutionized the way people work and travel, leading to the emergence of digital nomads. In response to this growing trend, numerous countries across the globe have introduced digital nomad visas, enabling individuals to work and live in their territories. In this comprehensive static guide, we will explore the destinations where you can obtain a digital nomad visa in 2023, providing an array of choices to suit various preferences and needs.
 
-- **You might also like my blog post**: [Where Can You Get a Digital Nomad Visa in 2023?](https://blog.himpfen.com/digital-nomad-visas/)
+- **You might also like my blog post**: [Where Can You Get a Digital Nomad Visa in 2023?](https://www.himpfen.com/digital-nomad-visas/)
 
 | Country        | Visa Name                              | Duration          | Cost             | Identity | Employment | Insurance | Funds    | Miscellaneous Eligibility Criteria |
 |----------------|----------------------------------------|-------------------|------------------|----------|------------|----------|----------|-----------------------------------|
