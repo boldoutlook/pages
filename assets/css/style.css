@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(45deg, #579ae9, #d52cfb);
+  background: #23a7e1 linear-gradient(45deg, #0033a1, #23a7e1);
   background-size: cover;
 }
 @media (min-width: 992px) {
