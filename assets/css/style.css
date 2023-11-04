@@ -69,19 +69,19 @@ table {
 }
 @media only screen and (min-width: 1024px) {
   table {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1220px) {
   table {
     margin-top: 40px;
     margin-bottom: 40px;
-    max-width: 75%;
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1600px) {
   table {
-    max-width: 70%;
+    max-width: 100%;
   }
 }
 .table-wrap {
