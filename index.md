@@ -3,7 +3,7 @@ layout: page
 title: Pages
 ---
 
-A collection of informative web pages about various topics such as [digital](/digita/), [technology](/technology/) and [travel](/travel/).
+A collection of informative web pages about various topics such as [digital](/digital/), [technology](/technology/) and [travel](/travel/).
 
 | Name | Description | 
 |:---------|:---------|
