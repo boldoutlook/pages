@@ -6,5 +6,5 @@ image: https://images.unsplash.com/photo-1596638787647-904d822d751e?ixlib=rb-4.0
 
 | Name | Description | 
 |:---------|:---------|
-| Domain Names | This table provides a concise overview of various top-level domains (TLDs), including generic, country code, sponsored, and new gTLDs. It details key aspects such as the domain type, character length requirements, registration policies, and additional features like DNSSEC and IDN support. Ideal for anyone looking to understand the options available for domain registration, this guide helps users make informed choices for their online presence. |
+| [Domain Names](/domain-names/) | This table provides a concise overview of various top-level domains (TLDs), including generic, country code, sponsored, and new gTLDs. It details key aspects such as the domain type, character length requirements, registration policies, and additional features like DNSSEC and IDN support. Ideal for anyone looking to understand the options available for domain registration, this guide helps users make informed choices for their online presence. |
 | [Special Characters](/special-characters/) | A list of special characters. Special characters are symbols that are created using a special code. |
