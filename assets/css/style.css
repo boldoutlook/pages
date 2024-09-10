@@ -60,6 +60,8 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
   background-color: #fff;
+  display: block; /* Added for responsiveness */
+  overflow-x: auto; /* Added for horizontal scrolling */
 }
 @media only screen and (min-width: 768px) {
   table {
