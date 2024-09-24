@@ -44,7 +44,7 @@ A list of mathematical symbols with their JavaScript equivalent.
 | Π | Product symbol | 1812 | Π x | for loop product |
 | ⊂ | Set subset of | 1817 | a ⊂ b | Set.isSubsetOf |
 | ⊃ | Set superset of | 1817 | a ⊃ b | Set.isSupersetOf |
-| | x | | Absolute value notation | 1841 | |x| | Math.abs(x) |
+| \|x\|  | Absolute value notation | 1841 | \|x\| | Math.abs(x) |
 | ‖x‖ | Matrix notation | 1843 | ‖x‖ | // TODO |
 | ∩ | Intersection | 1888 | a ∩ b | Set.intersection |
 | ∪ | Union | 1888 | a ∪ b | Set.union |
