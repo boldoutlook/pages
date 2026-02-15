@@ -7,8 +7,6 @@ image: https://images.unsplash.com/photo-1630932598914-3ebd4ef95d55?crop=entropy
 
 The advent of remote work has revolutionized the way people work and travel, leading to the emergence of digital nomads. In response to this growing trend, numerous countries across the globe have introduced digital nomad visas, enabling individuals to work and live in their territories. In this comprehensive static guide, I will explore the destinations where you can obtain a digital nomad visa in 2024, providing an array of choices to suit various preferences and needs.
 
-- **You might also like my blog post**: [Where Can You Get a Digital Nomad Visa in 2024?](https://www.himpfen.com/digital-nomad-visa-2024/)
-
 | Country        | Visa Name                              | Duration          | Cost             | Identity | Employment | Insurance | Funds    | Miscellaneous Eligibility Criteria                          |
 |----------------|----------------------------------------|-------------------|------------------|----------|------------|----------|----------|------------------------------------------------------------|
 | Anguilla       | Temporary Residency Certificate (TRC) | Up to 12 months   | $2,000+          | Required | Required   | Required | Required | Stable income, remote employment                            |
